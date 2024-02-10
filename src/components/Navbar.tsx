@@ -1,11 +1,10 @@
-import  { useState } from "react";
+import { useState } from "react";
 import resume from "../assets/resume.pdf";
 import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
-  FaLinkedinIn,
+  FaLinkedin
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -22,31 +21,31 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
-        <li>
+        <button>
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
-        </li>
-        <li>
+        </button>
+        <button>
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
-        <li>
+        </button>
+        <button>
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
-        </li>
-        <li>
+        </button>
+        <button>
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
-        </li>
-        <li>
+        </button>
+        <button>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
+        </button>
       </ul>
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
