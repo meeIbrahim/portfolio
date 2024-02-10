@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import  { useState } from "react";
+import resume from "../assets/resume.pdf";
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
   FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-zinc-800 text-stone-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-stone-200">
       <div>
         <h1 className=" font-thin text-2xl italic font-serif">MIA</h1>
       </div>
@@ -120,7 +120,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="ps-5 flex justify-between items-center w-full text-stone-200"
-              href="/"
+              href={resume}
+              download="myResume"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
