@@ -1,14 +1,11 @@
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Navbar from "./components/Navbar"
 import DummySection from "./components/Dummy";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="body-font">
       <div>
+        <Navbar />
         <DummySection
           title="About Me"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."

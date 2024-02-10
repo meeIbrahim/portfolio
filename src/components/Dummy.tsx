@@ -8,10 +8,16 @@ interface DummySectionProps {
 const DummySection = ({ title, content }: DummySectionProps) => {
   return (
     <section className="py-20">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">{title}</h2>
-        <p className="text-lg">{content}</p>
-      </div>
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            {title}
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-300">
+            {content}
+          </p>
+        </div>
+        </div>
     </section>
   );
 };
