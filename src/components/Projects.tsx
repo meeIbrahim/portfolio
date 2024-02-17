@@ -7,14 +7,10 @@ export default function Projects() {
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20  items-center">
           <ComputerDesktopIcon className="mx-auto inline-block w-10 mb-4" />
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
-            <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl font-bold inline border-b-4 border-cyan-950">
-                My Work
-              </p>
-            </div>
-          </div>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
+            My Work
+          </p>
+          <p className="py-5 lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
