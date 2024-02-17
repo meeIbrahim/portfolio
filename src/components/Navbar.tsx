@@ -32,13 +32,13 @@ const Navbar = () => {
           </Link>
         </button>
         <button>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
+          <Link to="work" smooth={true} duration={500}>
+            Work
           </Link>
         </button>
         <button>
-          <Link to="work" smooth={true} duration={500}>
-            Work
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
           </Link>
         </button>
         <button>
