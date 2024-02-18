@@ -1,11 +1,6 @@
 import { useState } from "react";
 import resume from "../assets/resume.pdf";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -32,6 +27,11 @@ const Navbar = () => {
           </Link>
         </button>
         <button>
+          <Link to="experiences" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </button>
+        <button>
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
@@ -39,11 +39,6 @@ const Navbar = () => {
         <button>
           <Link to="skills" smooth={true} duration={500}>
             Skills
-          </Link>
-        </button>
-        <button>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
           </Link>
         </button>
       </ul>
@@ -72,6 +67,17 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
+          <Link
+            onClick={handleClick}
+            to="experiences"
+            smooth={true}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -80,12 +86,6 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
       </ul>
