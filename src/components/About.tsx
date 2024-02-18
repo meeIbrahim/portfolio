@@ -1,13 +1,14 @@
 import { HiArrowNarrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
-
+import { IdentificationIcon } from "@heroicons/react/24/solid";
 const About = () => {
   return (
     <div id="about" className="w-full h-screen">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className=" flex flex-col justify-center items-center w-4/6">
+          <IdentificationIcon className="py-11 w-10 inline-block" />
           <p className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
-            About
+            About Me
           </p>
           <div className="py-5"></div>
           <div className="py-16 rounded-md bg-cyan-950 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
@@ -28,12 +29,12 @@ const About = () => {
           </div>
           <div className="py-2">
             <Link
-              to="work"
+              to="experiences"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-900 to-blue-900 cursor-pointer"
             >
-              Work
+              Experience
               <span className="">
                 <HiArrowNarrowDown size={25} className="ml-3" />
               </span>

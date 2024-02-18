@@ -5,12 +5,12 @@ export default function Skills() {
   return (
     <section id="skills" className="w-full h-screen">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <CpuChipIcon className="py-11 w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl  font-medium title-font text-white mb-4">
+        <div className="flex flex-col w-full mb-20  items-center">
+          <CpuChipIcon className="py-11 mx-auto w-10 inline-block" />
+          <h1 className="sm:text-4xl text-3xl inline border-b-4 border-cyan-950 font-medium title-font mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="mt-2 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.
