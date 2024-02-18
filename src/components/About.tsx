@@ -8,7 +8,7 @@ const About = () => {
         <div className=" flex flex-col justify-center items-center w-4/6">
           <IdentificationIcon className="py-11 w-10 inline-block" />
           <p className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
-            About
+            About Me
           </p>
           <div className="py-5"></div>
           <div className="py-16 rounded-md bg-cyan-950 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
