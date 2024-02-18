@@ -7,7 +7,7 @@ export default function Experience() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full items-center mb-20">
           <BriefcaseIcon className="w-10 py-11 mx-auto inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl inline border-b-4 border-cyan-950 font-medium title-font mb-4">
+          <h1 className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
             My Experience
           </h1>
           <div className="container px-5 py-10 mx-auto">

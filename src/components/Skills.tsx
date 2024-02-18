@@ -7,10 +7,10 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full mb-20  items-center">
           <CpuChipIcon className="py-11 mx-auto w-10 inline-block" />
-          <h1 className="sm:text-4xl text-3xl inline border-b-4 border-cyan-950 font-medium title-font mb-4">
+          <h1 className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
             Skills &amp; Technologies
           </h1>
-          <p className="mt-2 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="mt-10 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.
