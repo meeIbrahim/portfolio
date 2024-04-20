@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { IdentificationIcon } from "@heroicons/react/24/solid";
 const About = () => {
   return (
-    <div id="about" className="w-full h-screen">
+    <div id="about" className="w-full ">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className=" flex flex-col justify-center items-center w-4/6">
           <IdentificationIcon className="py-11 w-10 inline-block" />
