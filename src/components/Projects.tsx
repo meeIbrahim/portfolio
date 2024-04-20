@@ -3,9 +3,9 @@ import { projects } from "../data/projects";
 
 export default function Projects() {
   return (
-    <section id="work" className="body-font w-full h-screen mt-20">
+    <section id="work" className="body-font w-full mt-20">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20  items-center">
+        <div className="flex flex-col w-full mb-20 items-center">
           <ComputerDesktopIcon className="py-11 mx-auto inline-block w-10 mb-4" />
           <p className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
             My Work

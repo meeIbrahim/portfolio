@@ -3,22 +3,22 @@ import emumba from "../assets/emumba.jpg";
 
 export default function Experience() {
   return (
-    <section id="experiences" className="w-full h-screen">
+    <section id="experiences" className="w-full">
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full items-center mb-20">
-          <BriefcaseIcon className="w-10 py-11 mx-auto inline-block mb-4" />
+          <BriefcaseIcon className="w-10 py-11 md inline-block mb-4" />
           <h1 className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
             My Experience
           </h1>
-          <div className="container px-5 py-10 mx-auto">
+          <div className="container px-5 py-10 md">
             <div className="flex flex-col items-center">
-              <div className="grid grid-cols-3 gap-8">
-                <div className="flex items-center justify-end justify-top">
+              <div className="grid grid-cols-5 gap-8">
+                <div className="flex items-center justify-end justify-top col-start-1">
                   <div className="h-10 w-10 bg-gray-300 rounded-full flex items-center justify-center">
                     <img src={emumba} className="rounded-2xl" />
                   </div>
                 </div>
-                <div className="col-span-2 flex flex-col">
+                <div className="col-start-2 col-end-5 col-span-3 spand flex flex-col">
                   <h3 className="text-xl font-bold mb-2">
                     Software Development Engineer in Test
                   </h3>
@@ -43,12 +43,12 @@ export default function Experience() {
                     leveraging my expertise to help them grow
                   </p>
                 </div>
-                <div className="flex items-center justify-end justify-top">
+                <div className="flex items-center justify-end justify-top col-start-1">
                   <div className="h-10 w-10 bg-gray-300 rounded-full flex items-center justify-center">
                     <img src={emumba} className="rounded-2xl" />
                   </div>
                 </div>
-                <div className="col-span-2 flex flex-col">
+                <div className="col-start-2 col-end-5 col-span-3 flex flex-col">
                   <h3 className="text-xl font-bold mb-2">QA Engineer</h3>
                   <p className="text-sm text-gray-500 mb-2">
                     Sep 2021 - July 2022
