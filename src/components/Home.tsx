@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div id="home" className="h-screen w-full">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+    <div id="home" className="w-full">
+      <div className="py-20 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Software Development Engineer in Test
