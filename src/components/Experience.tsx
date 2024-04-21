@@ -1,16 +1,18 @@
 import { BriefcaseIcon } from "@heroicons/react/24/solid";
 import emumba from "../assets/emumba.jpg";
+import { HiArrowNarrowDown } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 export default function Experience() {
   return (
     <section id="experiences" className="w-full">
       <div className="container px-5 py-10 mx-auto">
-        <div className="flex flex-col w-full items-center mb-20">
+        <div className="flex flex-col w-full items-center">
           <BriefcaseIcon className="w-10 py-11 md inline-block mb-4" />
           <h1 className="text-4xl font-bold inline border-b-4 border-cyan-950 text-center">
             My Experience
           </h1>
-          <div className="container px-5 py-10 md">
+          <div className="container  py-10 md">
             <div className="flex flex-col items-center">
               <div className="grid grid-cols-5 gap-8">
                 <div className="flex items-center justify-end justify-top col-start-1">
@@ -79,6 +81,19 @@ export default function Experience() {
             </div>
           </div>
         </div>
+        <div className="flex justify-center">
+            <Link
+              to="work"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-900 to-blue-900 cursor-pointer"
+            >
+              My Work
+              <span className="">
+                <HiArrowNarrowDown size={25} className="ml-3" />
+              </span>
+            </Link>
+          </div>
       </div>
     </section>
   );
