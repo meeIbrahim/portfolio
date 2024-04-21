@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-stone-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-stone-200 z-40">
       <div>
         <h1 className=" font-thin text-2xl italic font-serif">MIA</h1>
       </div>
