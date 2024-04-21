@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Selenium Grid inside K8 Cluster",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: "src/assets/care.jpg",
     link: "https://reedbarger.com",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Java and Selenium",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "src/assets/automation_java.jpg",
     link: "https://jsbootcamp.com",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Java with Apache Http5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "src/assets/api_automation.jpg",
     link: "https://pythonbootcamp.com",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React with Tailwind",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "src/assets/portfolio.jpg",
     link: "https://reactbootcamp.com",
   },
 ];
