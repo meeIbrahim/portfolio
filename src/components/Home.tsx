@@ -30,7 +30,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="py-10">
           <img
             src={me}
             alt="my profile"
