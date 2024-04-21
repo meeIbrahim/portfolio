@@ -3,7 +3,7 @@ import { skills } from "../data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full h-screen">
+    <section id="skills" className="w-full h-screen min-h-screen">
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full mb-20  items-center">
           <CpuChipIcon className="py-11 mx-auto w-10 inline-block" />

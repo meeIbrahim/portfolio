@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 
 export default function Projects() {
   return (
-    <section id="work" className="body-font w-full mt-20">
+    <section id="work" className="body-font w-full mt-20 min-h-screen">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20 items-center">
           <ComputerDesktopIcon className="py-11 mx-auto inline-block w-10 mb-4" />
